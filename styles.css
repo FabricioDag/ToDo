@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    cursor: pointer;
+}
+
+main{
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    background-color: aquamarine;
+    gap: 1rem;
+}
+
+main h1{
+    text-align: center;
+}
+
+.createArea, .cardsWrapper{
+    padding: 1rem;
+    background-color: white;
+    border-radius: .5rem;
+}
+
+.cardsWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textArea{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
